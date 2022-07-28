@@ -10,10 +10,10 @@
 
 In this project I learned about transform property in css and its rotate function with translateX function which translate the content in x-axis.
 
-[Visit this website](https://abhi-project-1.netlify.app/)
+[Visit this website](https://abhi-project-8.netlify.app/)
 
 
 #
 
-To see my work visit my [Portfolio]("my-portfolio-website")
+To see my work visit my [Portfolio](https://portfolio-of-abhishek.netlify.app)
 
