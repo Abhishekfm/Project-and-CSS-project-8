@@ -8,7 +8,7 @@
 
 ![Project 8 Image](seven.png)
 
-In this project I learned about transform property in css and its rotate function with translateX function which translate the content in x-axis.
+In this project, I learned about the transform property in CSS and its rotate function with the translateX function which translate the content on the x-axis.
 
 [Visit this website](https://abhi-project-8.netlify.app/)
 

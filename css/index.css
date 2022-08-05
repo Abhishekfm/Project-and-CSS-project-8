@@ -14,6 +14,9 @@
     /* width: 420%; */
     z-index: -1;
 }
+body{
+    overflow-x: hidden;
+}
 .vector-img, .intro-img{
     position: absolute;
 }
@@ -85,4 +88,67 @@ nav{
     padding-bottom: 15px;
     font-weight: 600;
     font-size: larger;
+}
+
+@media screen and (max-width:1200px) {
+    .left-section{
+        /* width: 900px; */
+        padding-right: 0px;
+    }
+    .imgs-div{
+        opacity: 0.2;
+    }
+    .left-section h4{
+        padding-right: 0px;
+    }
+    .imgs-div{
+        transform: translate(-100px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    nav{
+        /* justify-content: center; */
+    }
+    .nav-items{
+        padding-left: 12px;
+    }
+    .nav-item{
+        padding-left: 5px;
+    }
+    .learn-more-btn{
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav div .nav-item:nth-child(3){
+        display: none;
+    }
+    nav img{
+        width: 80px;
+    }
+    .signin-btn{
+        padding: 4px 19px;
+        border-radius: 5px;
+    }
+    .left-section h1{
+        font-size: 34px;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .nav-item{
+        padding-left: 2px;
+    }
+    .nav-items{
+        padding-left: 2px;
+    }
+    .learn-more-btn{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    body{
+        overflow: hidden;
+    }
 }
